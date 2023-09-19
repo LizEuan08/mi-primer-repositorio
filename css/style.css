@@ -1,7 +1,47 @@
-.title{
-    text-align: center;
+ul{
+    list-style-type: square;
 }
 
-.caption{
-    text-align: center;
+li {
+    margin-bottom: 10px;
 }
+
+.skill {
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar {
+    width: 70px; /* Cambia el porcentaje deseado aquí */
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 0;
+    background-color: #7d15ec; 
+    border-radius: 10px;
+}
+
+body {
+    background-color: #f4f4f4c9; /* Fondo gris claro */
+    font-family: Arial, sans-serif; /* Fuente legible */
+    color: #333; /* Texto en color gris oscuro */
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #000000; /* Color del encabezado en gris oscuro */
+}
+
+p {
+    line-height: 1.5;
+    color: #555; /* Color del texto en gris más claro */
+}
+
