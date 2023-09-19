@@ -1,9 +1,45 @@
-ul{
-    list-style-type: square;
+body {
+    background-color: #f4f4f4c9; 
+    font-family: Arial, sans-serif; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px; /* Este da tamaño */
+    margin: 0 auto; /* este centra */
+    padding: 20px;
+    background-color: #fff; 
+    border: 1px solid #ddd; /* borde para aparentar una hoja */
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #000000; 
+}
+
+h2 {
+    color: #3498db; 
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.5;
+    color: #555; 
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: square; /* detallito de que los puntos ahora son cuadrados */
+    padding-left: 20px;
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .skill {
@@ -12,7 +48,7 @@ li {
 }
 
 .progress-bar {
-    width: 70px; /* Cambia el porcentaje deseado aquí */
+    width: 100px; 
     height: 8px;
     background-color: #ccc;
     border-radius: 10px;
@@ -27,21 +63,7 @@ li {
     border-radius: 10px;
 }
 
-body {
-    background-color: #f4f4f4c9; /* Fondo gris claro */
-    font-family: Arial, sans-serif; /* Fuente legible */
-    color: #333; /* Texto en color gris oscuro */
+.imagen{
+    border-radius: 50%; /* imagen redonda */
+    vertical-align: middle; /* imagen aliniada correctamente al texto */
 }
-
-
-h1 {
-    text-align: center;
-    margin-top: 20px;
-    color: #000000; /* Color del encabezado en gris oscuro */
-}
-
-p {
-    line-height: 1.5;
-    color: #555; /* Color del texto en gris más claro */
-}
-
